@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/*Header style*/    
+nav{
+    
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5%;
+}
+nav img{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+nav ul{
+    display: inline-flex;
+    margin-left: 55%;
+    margin-bottom: 5px;
+}
+nav ul li{
+    list-style: none;
+    margin-left:10%;
+    font-size: 18px;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#mashead img{
+  position: relative;
+}  
+.box{
+  position: absolute;
+  top: 40%;
+    width: 40%;
+    height: 50%;
+    margin-left: 20px;
+  }
+ h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 70px;
+  }
+  p{
+    text-align: center;
+    margin-left: 10%;
+  }
+  button{
+    margin-left: 45%;
+    border: none;
+    margin-top:5%;
+    padding: 10px 25px;
+    background-color: rgb(187, 73, 12);
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+/*About style*/    
+
+#about {
+    margin-top: 30px;
+    position: relative;
+}
+#about img{ 
+    margin-left: 10%;
+}
+.box1{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 40%;
+    height: 50%;
+    margin-left: 20px;
+    }
+.box1 h1 {
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 50px;
+    }
+.box1 p{
+    margin-top: 8%;
+    margin-left: 10%;
+    }
+.box1 p  button{
+    margin-left: 10%;
+    border: none;
+    margin-top:5%;
+    padding: 10px 25px;
+    background-color: rgb(187, 73, 12);
+    }
+.box1 p button a{
+    text-decoration: none;
+    color: white;
+    }
+/*Facility style*/    
+#facility{
+  position: relative;
+}
+#facility img{
+    margin-top: 5%;
+    margin-left: 38%;
+}
+#facility h2{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+.row{
+    margin-top: 2%;
+    margin-left:15%;
+}
+.row h3{
+    text-align: center;
+    margin-left:10%;
+}
+.row p{
+    text-align: center;
+}
+.col1{
+display: block;
+float: left;
+}
+.col1 img{
+    margin-bottom: 10px;
+   margin-right:20% ;
+}
+.col2{
+margin-left:5%;
+display: block;
+float: left;
+}
+.col2 img{
+    margin-right:20% ;
+    margin-bottom: 10px;
+ }
+.col3{
+margin-left:5%;
+display: block;
+float: left;
+}
+.col3 img{
+    margin-bottom: 10px;
+    margin-right:20% ;
+ }
+.col4{
+margin-left:5%;
+display: block;    
+float: left;
+}
+.col4 img{
+    margin-bottom: 10px;
+    margin-right: 40px;
+ }
+/*Menu style*/
+#menu{
+    margin-top: 25%;
+    position: relative;
+    margin-left: 16%;
+}
+#menu .im{
+    margin-top: 4%;
+    margin-left: 28%;
+}
+#menu h2{
+    margin-top: 1%;
+    margin-left: 35%;
+    font-size: 30px;
+}
+#menu .row-1{
+    
+    margin-top: 8%;
+}
+.row-1 h3{
+    text-align: center;
+}
+#menu .row-1 .coll1{
+    display: block;
+    float: left;
+}
+#menu .row-1 .coll2{
+    margin-left: 2%;
+    display: block;
+    float: left;
+}
+#menu .row-1 .coll3{
+    margin-left: 2%;
+    display: block;
+    float: left;
+}
+#menu .row-2{
+    margin-top: 30%;
+
+}
+.row-2 h3{
+    text-align: center;
+}
+#menu .row-2 .coll4{
+    display: block;
+    float: left;
+}
+#menu .row-2 .coll5{
+    margin-left: 2%;
+    display: block;
+    float: left;
+}
+#menu .row-2 .coll6{
+    margin-left: 2%;
+    display: block;
+    float: left;
+}
+/*gallery style*/
+#gallery{
+    position: relative;
+}
+.image{
+    margin-left: 38%;
+}
+#gallery h2{
+    margin-top: 2%;
+    margin-left: 45%;
+    font-size: 30px;
+}
+#gallery .row-1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#gallery .col-1 img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*Team style*/
+#team{
+    margin-top: 15%;
+}
+#team .im3{
+    margin-left: 38%;
+}
+#team h2{
+    margin-top: 1%;
+    margin-left: 45%;
+    font-size: 30px;
+}
+#team { 
+    margin-top: 8%;
+}
+#team .rw-1{
+    margin-top: 10px;
+    position: relative;
+}
+#team .cl-1{
+    position: absolute;
+    left: 18%;
+}
+#team .cl-2{
+    position: absolute;
+    left: 40%;
+}
+#team .cl-3{
+    position: absolute;
+    left: 62%;
+}
+#team h3{
+    position: absolute;
+    left: 13%;
+    top: 40vh;
+}
+#team .rw-2{
+    margin-top:25%;
+    position: relative;
+}
+#team .cl-4{
+    position: absolute;
+    left: 18%;
+}
+#team .cl-5{
+    position: absolute;
+    left: 40%;
+}
+#team .cl-6{
+    position: absolute;
+    left: 62%;
+}
+
+/*Contact  style*/
+#contact{
+    position: relative;
+}
+#contact .img-1{
+    margin-top: 50%;
+    margin-left: 38%;
+}
+#contact h2{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+.container img{
+    margin-top: 1%;
+}
+.con{
+    position: absolute;
+    left: 60%;
+    bottom: 17%;
+    border: 3px solid black;
+    width: 500px;
+    height: 450px;
+}
+.con h3{
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+form .bx{
+font-size: large;
+ margin-left:10%;
+ border: 2px solid black;
+ margin-top: 20px;
+ width: 80%;
+ padding: 20px 30px;
+}
+form .btn{
+    margin-left: 28%;
+    margin-top: 6%;
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    font-size: large;
+    padding: 15px 50px;
+}
+
+/*Footer style*/
+#footer{
+    margin-top: 10%;
+    position: relative;
+}
+#footer .ft-row{
+    height: 80%;
+    font-size: 18px;
+    margin-left: 5%;
+    
+}
+#footer  .bg1{
+    margin-left: 15vh;
+    position: relative;
+    background-color:chocolate ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+#footer  .bg{
+    margin-left: 11vh;
+    position: relative;
+    background-color:chocolate ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+#footer i{
+    color: white;
+    font-size: x-large;
+    margin-top: 20px;
+}
+#footer .cl1{
+    width: 20%;
+    margin-bottom: 5%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#footer .cl2{
+    width: 15%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 8%;
+}
+#footer .cl3{
+    width: 15%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 8%;
+}
+#footer .cl4{
+    width: 15%;
+    display: block;
+    float: left;
+    margin-left: 8%;
+    text-align: center;
+}
+.hr{
+    margin-top: 15%;
+    margin-left: 5%;
+    height: 3px;
+    width: 90%;
+    background-color: black;
+}
+.ft-row2{
+    margin-top: 5%;
+    margin-right: 8%;
+    font-size: x-large;
+}
